@@ -1,0 +1,57 @@
+/*-- style for skill bars--*/
+.skill-bars {
+    margin: 0 10px;
+}
+.skill-container {
+    width: 100%;
+    background-color: #73a9df;
+}
+.skill-bars p {
+    font-size: 18px;
+}
+.html-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: green;
+    color: white;
+    width: 92%;
+    text-align: right;
+}
+.css-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: red;
+    color: white;
+    width: 60%;
+    text-align: right;
+}
+.py-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: blue;
+    color: white;
+    width: 20%;
+    text-align: right;
+}
+.sql-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: brown;
+    color: white;
+    width: 65%;
+    text-align: right;
+}
+.excel-skill {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: lightcoral;
+    color: white;
+    width: 60%;
+    text-align: right;
+}
+

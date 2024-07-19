@@ -1,0 +1,55 @@
+/*style for about title*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+}
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #73a9df;
+    color: black;
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+/* style for my profile*/
+.card {
+   box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+   margin: 0 50px;
+   padding-top: 7px;
+   border-radius: 16px; 
+}
+.card img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 10%;
+    height: 5%;
+}
+.profile-container {
+    text-align: center;
+}
+.profile-title {
+    color: rgb(128, 128, 128);
+}
+.profile-btn {
+    border: none;
+    border-radius: 10px;
+    outline: 0;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    width: 40%;
+    text-decoration: none;
+}
+.profile-btn:hover {
+    background-color: grey;
+}

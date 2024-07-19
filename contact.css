@@ -1,0 +1,75 @@
+/*style for contact page*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #fcfcfc;
+}
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+.contact-start {
+    padding: 50px;
+    text-align: center;
+    background-color: #73a9df;
+    color: black;
+
+}
+.contact-container {
+    border: 1px solid #eaeff5;
+    border-radius: 10px;
+    margin: 0 100px;
+    box-shadow: 0 4px 8px 0 rgba(110, 177, 224, 0.4); 
+}
+.contact-box {
+    margin: 8px 0 9px 15px;
+}
+.contact-box h3 {
+    text-align: center;
+    color: blue;
+}
+.contact-box p span {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
+.contact-box a {
+    text-decoration: none;
+    color: black;
+}
+
+/*style for the contact form*/
+.form-title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type=submit]:hover {
+    background-color: deeppink;
+}
+.form-container {
+    border-radius: 14px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 15px;
+}
